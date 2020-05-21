@@ -1,0 +1,23 @@
+Sub dopln()
+
+Sheets("close").Select
+For Col = 2 To 50
+    For Row = 2 To 2932
+        If Cells(Row, Col) = "" Or Cells(Row, Col) = "#N/A" Then
+            k = 0
+            Do
+                k = k + 1
+            Loop While (Cells(Row + k, Col) = "" Or Cells(Row + k, Col) = "#N/A") And k + Row <= 2932
+            If k <= 9 Then
+                Delta = Cells(Row + k, Col) - Cells(Row - 1, Col)
+                For i = 0 To k
+                    Cells(Row + i, Col).Value = Round(Cells(Row - 1, Col) + Delta / (k + 1#) * (i + 1), 3)
+                Next i
+            Else
+                Row = Row + k
+            End If
+        End If
+    Next Row
+Next Col
+
+End Sub
