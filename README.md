@@ -9,5 +9,5 @@
 #                                    - makro dopln (v textovej forme)
 # Subor approx_tv_denoising_data.m obsahuje vstupne data k prikladu v kapitole 3 - odstranovanie sumu z poskodeneho signalu
 # Subor denoising_riesenie.m obsahuje riesenie prikladu z kapitoly 3 v MATLAB-e
+# Subor ilustracne_priklady.m obsahuje riesenie ilustracneho prikladu v MATLAB-e pomocou skalarizacnej a lexikografickej metody
 # Subor portfolio.m obsahuje riesenie prikladu z kapitoly 2 v MATLAB-e
-# Subor 
