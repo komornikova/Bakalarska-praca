@@ -1,4 +1,4 @@
-# Bakalarka
+# Bakalarska praca - Konvecna bi-kriterialna optimalizacia - teoria a aplikacie
 
 # Subor aktiva.xlxs obsahuje zalozky  - vsetky aktiva (zoznam vsetkych aktiv dostupnych v aplikacii AMS Demo)
 #                                    - DEA (vstupne data, vystupne data, vysledky DEA analyzy)
