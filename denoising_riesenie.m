@@ -37,7 +37,7 @@ figure;
 semilogy([1:iteracia],dlzka_kroku,'*-');
 xlabel('iterácie');
 ylabel('dĺžka kroku');
-title('Dĺžka kroku pri rastúcom počte iterácii');
+title('Dĺžka kroku pri rastúcom počte iterácií');
 grid on;
 
 figure;
